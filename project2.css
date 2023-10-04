@@ -13,8 +13,13 @@
     align-items: center;
 }
 
+.search-bar {
+    position: relative;
+    left: -70px;
+}
+
 .border{
-    border: 1px solid rgb(212, 64, 64);
+    border: 1px solid #182839;
     border-radius: 4px;
 
 }
@@ -54,6 +59,8 @@
     border-radius: 4px;
     color: white;
 }
+
+/*-----------------------------NAVBAR------------------------------------*/
 
 .nav-info{
      display: flex;
@@ -111,11 +118,14 @@
     justify-content: space-evenly;
     background-color: #222f3d;
 }
+ 
+
 
 .box{
     height: 460px;
     background-color:#f3ecca;
     width: 32%;
+    border-radius: 4px;
     padding: 20px 0px 15px;
     margin-top: 15px;
 }
